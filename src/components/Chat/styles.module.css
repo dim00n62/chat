@@ -1,0 +1,53 @@
+.chat {
+    grid-area: chat;
+    padding: 24px 48px;
+    align-self: end;
+}
+
+.messages {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding-left: 0;
+    max-height: calc(100vh - 140px);
+    overflow: auto;
+}
+
+.message {
+    list-style: none;
+    display: flex;
+    padding: 24px;
+    gap: 32px;
+    border-radius: 8px;
+    white-space: break-spaces;
+}
+
+.textField {
+    width: 100%;
+}
+
+.userIcon {
+    height: 24px;
+    width: 24px;
+}
+
+.user svg {
+    background: coral;
+    border-radius: 4px;
+    box-shadow: 0 0 0 4px coral;
+}
+
+.bot svg {
+    background: gainsboro;
+    border-radius: 4px;
+    box-shadow: 0 0 0 4px gainsboro;
+}
+
+.bot {
+    
+}
+
+.user {
+    background-color: rgb(169 169 169 / 30%);
+    border-radius: 8px;
+}

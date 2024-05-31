@@ -1,0 +1,25 @@
+.settings {
+    grid-area: settings;
+    background: rgb(128 128 128 / 10%);
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 24px;
+}
+
+.tabs {
+    padding: 0 24px;
+}
+
+.param {
+    margin: 8px 0;
+}
+
+.paramTitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+}

@@ -1,0 +1,17 @@
+.app {
+    display: grid;
+    grid-template-areas: "settings chat";
+    grid-template-columns: 400px auto;
+    height: 100%;
+}
+
+.noSettings {
+    grid-template-areas: "chat";
+    grid-template-columns: auto;
+}
+
+.settingsButton {
+    position: absolute !important;
+    top: 24px;
+    left: 24px;
+}
